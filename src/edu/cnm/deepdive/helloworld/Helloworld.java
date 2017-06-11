@@ -1,22 +1,22 @@
-//TODO Auto-generated method stub
-"Hello World"/**
+
+ /**
  * 
  */
 package edu.cnm.deepdive.helloworld;
 
 /**
  * @author ali
- *
+ * Simple class that displays "Hello World!" message.
  */
 public class Helloworld {
 
   /**
-   * Prints "Hello World1" to standard output.
+   * Prints "Hello World!" to standard output.
    * 
    * @param args  Command-line parameters (ignored).
    */
   public static void main(String[] args) {
-    // TODO Auto-generated method stub
+  System.out.println.("Hello World!");
 
   }
 
