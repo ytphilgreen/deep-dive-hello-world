@@ -24,9 +24,9 @@ public class Helloworld {
     }
     message = String.format("Hello %s!", target);
     emitMessage(message);
-    for (int i = 0; i < args.length; i++) {
+    for (String arg : args) {
 
-      System.out.printf("Arg # %d is %s%n", i, args[i]);
+      System.out.printf("Argument : %s%n", arg);
     }
   }
 
