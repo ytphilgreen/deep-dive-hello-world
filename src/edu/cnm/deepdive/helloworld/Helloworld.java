@@ -28,9 +28,14 @@ public class Helloworld {
 
       System.out.printf("Argument : %s%n", arg);
     }
+    System.getProperties().list(System.out);
+    assert args.length > 10;
   }
 
   private static void emitMessage(String message) {
     System.out.println(message);
+  
   }
+
 }
+
